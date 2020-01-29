@@ -15,7 +15,7 @@ class RouletteGun extends React.Component {
       : "Your safe!";
     return (
       <div>
-        <button>onClick={() => this.handleClick}>Pull the trigger</button>
+        <button onClick={this.handleClick}>Pull the trigger</button>
         <p>{display}</p>
       </div>
     );
