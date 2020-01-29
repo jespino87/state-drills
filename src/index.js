@@ -3,5 +3,5 @@ import ReactDOM from "react-dom";
 import "./index.css";
 // import HelloWorld from "./HelloWorld";
 import Bomb from "./Bomb";
-
-ReactDOM.render(<Bomb />, document.getElementById("root"));
+import RouletteGun from "./RouletteGun";
+ReactDOM.render(<RouletteGun bulletInChamber ={7} />, document.getElementById("root"));
